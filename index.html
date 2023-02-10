@@ -6,33 +6,45 @@
     
         <meta charset="UTF-8">
         <title>KTM Barberia</title>
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="reset.css/reset.css">
+        <link rel="stylesheet" href="style.css">
 
     </head>
 
     <body>
 
         <header>
-            <h1 class="titulo-principal">KTM Barbería</h1>
+            <div class="caja"> 
+                <h1><img src="imagenes/Captura de pantalla 2023-01-23 004312.png"></h1>
+                <nav>
+                    <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="productosktm.html">Productos</a></li>
+                       <li><a href="contacto.html">Contacto</a></li>
+
+                    </ul>
+                </nav>
+            </div>    
         </header>
-
-        <image id="banner" src="banner/banner.jpg"></image>
-
-        <div class="principal">
-
-            <h2 class="titulo-centralizado">Sobre KTM Barberia</h2>
-
-          <p>Ubicada en el corazón de Buenos Aires, <strong>KTM Barberia </strong> trae para el mercado lo mejor que hay para su cabello y barba. Fundada en 2020, KTM Barbería ya se destaca en la ciudad y conquista nuevos clientes diariamente.</p>
-          <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
-          <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
-      
-      
         
-        </div>
+        <image class="banner" src="banner/banner.jpg"></image>
+        <main>
+            <section class="principal">
 
-        <div class="diferenciales">
+            <h2 class="titulo-principal">Sobre KTM Barberia</h2>
 
-            <h3 class="titulo-centralizado">Diferenciales</h3>
+            <img class="utensilios"  src="utensilios.jfif">
+
+            <p>Ubicada en el corazón de Buenos Aires, <strong>KTM Barberia </strong> trae para el mercado lo mejor que hay para su cabello y barba. Fundada en 2020, KTM Barbería ya se destaca en la ciudad y conquista nuevos clientes diariamente.</p>
+            <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong></em></p>
+            <p>Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de excelencia y agilidad, garantizando calidad y satisfacción de nuestros clientes.</p> 
+      
+      
+            </section>
+        
+        <section class="diferenciales">
+
+            <h3 class="titulo-principal">Diferenciales</h3>
 
             <ul>
               <li class="items">Atencion personalizada a los clientes</li>
@@ -41,10 +53,12 @@
               <li class="items">Profesionales calificados</li>
             </ul>
 
-            <img src="diferenciales/diferenciales.jpg" class="imagenDiferenciales">
-
-        </div>
-
-
+            <img src="barberia-hombre.jpg" class="imagenDiferenciales">
+        </main>
+        </section>
+        <footer>
+            <img src="imagenes/logo-blancoktm.png">
+            <p class="copyright">&copy Copyright KTM Barberia 2023</p>
+        </footer>
     </body>
 </html>
